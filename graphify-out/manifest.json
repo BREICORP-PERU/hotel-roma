@@ -1,0 +1,62 @@
+{
+  "config.js": {
+    "mtime": 1794331094.0658295,
+    "seen": 1794331858.4531853,
+    "ast_hash": "3633bc93e19eca859effb432f3b5d587",
+    "semantic_hash": ""
+  },
+  "script.js": {
+    "mtime": 1794331437.6221578,
+    "seen": 1794331858.453196,
+    "ast_hash": "9f7090a176cf21cf6e19530ec7f3f1ca",
+    "semantic_hash": ""
+  },
+  "assets/README.md": {
+    "mtime": 1794331427.704191,
+    "seen": 1794331858.453201,
+    "ast_hash": "0259229c4c02faefbb1270718109171f",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1794331734.7230797,
+    "seen": 1794331858.4532042,
+    "ast_hash": "27a110f01b3c6e747dcd44f96a5fa3e5",
+    "semantic_hash": ""
+  },
+  "assets/images/temporary/habitacion-doble.webp": {
+    "mtime": 1794331581.7454338,
+    "seen": 1794331858.4532073,
+    "ast_hash": "d7b78f086aa88bea82c3e941e2e8fc68",
+    "semantic_hash": ""
+  },
+  "assets/images/temporary/habitacion-matrimonial.webp": {
+    "mtime": 1794331051.3401058,
+    "seen": 1794331858.4532104,
+    "ast_hash": "d1fd40356ffa573f4bd7884a252274a5",
+    "semantic_hash": ""
+  },
+  "assets/images/temporary/habitacion-simple.webp": {
+    "mtime": 1794331050.7432466,
+    "seen": 1794331858.4532132,
+    "ast_hash": "85024c13a1d5a1a7409cf1a376519e87",
+    "semantic_hash": ""
+  },
+  "assets/images/temporary/hero-hospedaje.webp": {
+    "mtime": 1794331049.9789577,
+    "seen": 1794331858.4532156,
+    "ast_hash": "b40a5054fa710e06ab78202f575cd7f7",
+    "semantic_hash": ""
+  },
+  "assets/images/temporary/naturaleza-aguaytia.webp": {
+    "mtime": 1794331583.5691984,
+    "seen": 1794331858.4532177,
+    "ast_hash": "38c3f517acb322ff385b1b671ed02d30",
+    "semantic_hash": ""
+  },
+  "assets/images/temporary/terraza.webp": {
+    "mtime": 1794331582.7146213,
+    "seen": 1794331858.4532201,
+    "ast_hash": "f2290c4d1ff16677d77bb910eddc0b13",
+    "semantic_hash": ""
+  }
+}
