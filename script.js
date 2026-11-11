@@ -44,16 +44,18 @@ document.querySelector('.map-panel iframe').src = `https://www.google.com/maps?q
 document.querySelector('#year').textContent = new Date().getFullYear();
 document.querySelector('#year').nextSibling.textContent = ` ${config.name}. Todos los derechos reservados.`;
 
-// El logotipo solo se muestra cuando se añade el archivo oficial.
+// El logotipo oficial se sincroniza asegurando que no se duplique si ya existe en el HTML.
 if (config.logo) {
   document.querySelectorAll('.brand').forEach(brand => {
-    const image = document.createElement('img');
-    image.src = config.logo;
-    image.alt = '';
-    image.className = 'brand-logo';
-    brand.prepend(image);
+    let image = brand.querySelector('.brand-logo');
+    if (!image) {
+      image = document.createElement('img');
+      image.src = config.logo;
+      image.className = 'brand-logo';
+      brand.prepend(image);
+    }
+    image.alt = 'Hotel Roma - Aguaytía';
   });
-  document.querySelector('link[rel="icon"]').href = config.logo;
 }
 
 function close_menu() {

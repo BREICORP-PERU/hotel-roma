@@ -64,7 +64,7 @@ h1 em, h2 em { font-style: normal; color: var(--brown); }
 .site-header.is-scrolled, .site-header.menu-active { background: var(--brown-deep); box-shadow: 0 8px 25px rgba(0,0,0,.12); }
 .header-inner { display: flex; align-items: center; gap: 30px; height: 86px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; min-width: max-content; color: var(--white); line-height: 1.1; }
-.brand-logo { display: block; width: 48px; height: 48px; flex: none; object-fit: contain; }
+.brand-logo { display: block; width: 52px; height: 52px; flex: none; object-fit: contain; border-radius: 50%; mix-blend-mode: screen; }
 .brand-name { display: flex; flex-direction: column; font-size: .63rem; font-weight: 600; letter-spacing: .2em; }
 .brand-name strong { margin-top: 3px; font-size: 1.13rem; font-weight: 800; letter-spacing: .24em; }
 .desktop-nav { display: flex; align-items: center; justify-content: center; gap: clamp(14px, 1.6vw, 26px); flex: 1; }
@@ -193,9 +193,15 @@ h1 em, h2 em { font-style: normal; color: var(--brown); }
 .footer-column p { margin: 0; color: #c5b7a6; font-size: .78rem; line-height: 1.7; }
 .footer-reserve .button { margin-top: 13px; white-space: normal; text-align: center; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 20px; padding: 22px 0; border-top: 1px solid rgba(255,255,255,.16); color: #ad9c8d; font-size: .68rem; }
-.whatsapp-float { position: fixed; right: 23px; bottom: 22px; z-index: 25; display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; background: #25d366; color: var(--white); box-shadow: 0 7px 22px rgba(0,0,0,.22); transition: transform .2s; }
-.whatsapp-float:hover { transform: translateY(-3px); }
-.whatsapp-float .icon { width: 29px; height: 29px; stroke-width: 1.8; }
+@keyframes whatsapp-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.65), 0 7px 22px rgba(0,0,0,.22); }
+  65% { box-shadow: 0 0 0 14px rgba(37, 211, 102, 0), 0 7px 22px rgba(0,0,0,.22); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 7px 22px rgba(0,0,0,.22); }
+}
+.whatsapp-float { position: fixed; right: 23px; bottom: 22px; z-index: 25; display: grid; place-items: center; width: 58px; height: 58px; border-radius: 50%; background: #25d366; color: var(--white); box-shadow: 0 7px 22px rgba(0,0,0,.22); transition: transform .22s cubic-bezier(0.34, 1.56, 0.64, 1), background-color .2s; animation: whatsapp-pulse 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+.whatsapp-float:hover { transform: translateY(-3px) scale(1.05); background: #20ba5a; }
+.whatsapp-float .icon { width: 32px; height: 32px; fill: var(--white); stroke: none; }
+.icon-whatsapp, svg.icon:has(use[href="#icon-whatsapp"]) { fill: currentColor; stroke: none; }
 
 /* Visor fotográfico */
 .lightbox { max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); padding: 20px; border: 0; background: #20150e; color: var(--white); }
@@ -227,6 +233,7 @@ h1 em, h2 em { font-style: normal; color: var(--brown); }
   .wrap { width: min(calc(100% - 40px), var(--wrap)); }
   .desktop-nav, .header-book { display: none; }
   .header-inner { justify-content: space-between; height: 74px; }
+  .brand-logo { width: 46px; height: 46px; }
   .menu-toggle { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 6px; width: 48px; height: 48px; border: 1px solid rgba(255,255,255,.55); background: none; color: var(--white); cursor: pointer; }
   .menu-toggle span { display: block; width: 21px; height: 1.5px; background: currentColor; transition: transform .2s; }
   .menu-active .menu-toggle span:first-child { transform: translateY(3.75px) rotate(45deg); }
@@ -279,9 +286,11 @@ h1 em, h2 em { font-style: normal; color: var(--brown); }
   .footer-main { padding: 55px 0; }
   .footer-bottom { flex-direction: column; }
   .whatsapp-float { right: 16px; bottom: 16px; width: 52px; height: 52px; }
+  .whatsapp-float .icon { width: 28px; height: 28px; }
 }
 @media (max-width: 450px) {
   .wrap { width: calc(100% - 32px); }
+  .brand-logo { width: 42px; height: 42px; }
   .brand-name { font-size: .53rem; }
   .brand-name strong { font-size: .95rem; }
   .eyebrow { margin-bottom: 20px; }
@@ -319,4 +328,5 @@ h1 em, h2 em { font-style: normal; color: var(--brown); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  .whatsapp-float { animation: none !important; }
 }

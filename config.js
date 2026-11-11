@@ -1,13 +1,13 @@
 // Datos comerciales confirmados. Actualizar aquí los contactos y enlaces públicos.
 window.roma_config = Object.freeze({
-  name: 'HOSPEDAJE ROMA',
+  name: 'HOTEL ROMA',
   address: 'Jr. Aguaytía 139, Aguaytía, Padre Abad, Ucayali, Perú.',
   phones: [
     { display: '962 884 080', international: '51962884080' },
     { display: '931 538 909', international: '51931538909' }
   ],
   email: 'romaperu@gmail.com',
-  logo: null,
+  logo: 'assets/images/logo/logo-hotel-roma.webp',
   rooms: {
     simple: 'simple',
     matrimonial: 'matrimonial',

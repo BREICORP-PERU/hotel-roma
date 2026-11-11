@@ -1,6 +1,6 @@
-# Recursos visuales de Hospedaje Roma
+# Recursos visuales de Hotel Roma
 
-Las seis imágenes de `images/temporary/` fueron generadas con IA para esta segunda versión. Son **conceptuales e ilustrativas**: no muestran instalaciones reales de Hospedaje Roma ni documentan un atractivo turístico específico. El sitio las identifica como tales.
+Las imágenes de `images/temporary/` son **conceptuales e ilustrativas**: no muestran instalaciones reales de Hotel Roma ni documentan un atractivo turístico específico. El sitio las identifica claramente como tales.
 
 | Archivo | Uso principal |
 | --- | --- |
@@ -11,8 +11,16 @@ Las seis imágenes de `images/temporary/` fueron generadas con IA para esta segu
 | `terraza.webp` | Galería y cierre |
 | `naturaleza-aguaytia.webp` | Sección turística; no representa el Velo de la Novia |
 
-Los archivos están optimizados en WebP y sus rutas, textos alternativos y condición temporal se definen en `config.js`. Para sustituirlos, guarda las fotografías auténticas autorizadas en `assets/images/` y actualiza cada entrada de `photos` con la nueva ruta y un texto alternativo fiel. Cambia `conceptual` a `false` únicamente cuando la imagen corresponda al establecimiento o al destino indicado. Entonces también deberán revisarse los textos visibles que describen la galería como conceptual.
+Los archivos están optimizados en WebP y sus rutas, textos alternativos y condición temporal se definen en `config.js`. Para sustituirlos, guarda las fotografías auténticas autorizadas en `assets/images/` y actualiza cada entrada de `photos` con la nueva ruta y un texto alternativo fiel. Cambia `conceptual` a `false` únicamente cuando la imagen corresponda al establecimiento o al destino indicado.
 
-Sigue pendiente el logotipo oficial con monograma y corona. Cuando el cliente lo entregue, configura `logo` en `config.js` con su ruta original; aparecerá en la cabecera, el pie y el favicon. No se ha dibujado un sustituto.
+## Logotipo oficial e identidad
 
-También faltan fotos reales de fachada y baños para ampliar la galería con evidencia propia del hospedaje.
+- El logotipo oficial de Hotel Roma con monograma y corona se encuentra en `assets/images/logo/logo-hotel-roma.webp` y está incorporado en la cabecera principal, en el pie de página y en el favicon.
+- Se han generado favicons optimizados en `assets/images/logo/favicon-32x32.png`, `favicon-16x16.png`, `apple-touch-icon.png` y `favicon.ico` en la raíz.
+
+## Vista previa en redes sociales (Open Graph / Twitter)
+
+- Imagen exclusiva de vista previa: `assets/images/og/hotel-roma-share.jpg` (1200 × 630 px) y su versión PNG.
+- Integra la fotografía de fondo referencial con gradiente cálido, el logotipo oficial, el nombre comercial HOTEL ROMA, la ubicación AGUAYTÍA y la indicación de «Imagen referencial».
+
+Pendiente: fotos reales de fachada, habitaciones y baños para sustituir las imágenes conceptuales temporales.

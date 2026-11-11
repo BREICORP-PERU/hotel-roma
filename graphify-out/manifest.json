@@ -1,26 +1,26 @@
 {
   "config.js": {
-    "mtime": 1794331094.0658295,
-    "seen": 1794331858.4531853,
-    "ast_hash": "3633bc93e19eca859effb432f3b5d587",
+    "mtime": 1794427688.6215842,
+    "seen": 1794427971.8518186,
+    "ast_hash": "3299b90972eaca09a19e53ffbd01a381",
     "semantic_hash": ""
   },
   "script.js": {
-    "mtime": 1794331437.6221578,
-    "seen": 1794331858.453196,
-    "ast_hash": "9f7090a176cf21cf6e19530ec7f3f1ca",
+    "mtime": 1794427704.5207002,
+    "seen": 1794427971.8518298,
+    "ast_hash": "4f75e95b83c19f10263e4721f441ab8c",
     "semantic_hash": ""
   },
   "assets/README.md": {
-    "mtime": 1794331427.704191,
-    "seen": 1794331858.453201,
-    "ast_hash": "0259229c4c02faefbb1270718109171f",
+    "mtime": 1794427955.411403,
+    "seen": 1794427971.8518355,
+    "ast_hash": "20687f29b7a4f3aa0d9749fa7905fa80",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1794331734.7230797,
-    "seen": 1794331858.4532042,
-    "ast_hash": "27a110f01b3c6e747dcd44f96a5fa3e5",
+    "mtime": 1794427939.8131425,
+    "seen": 1794427971.8518393,
+    "ast_hash": "401f2512737bb83ed2aa186597626b07",
     "semantic_hash": ""
   },
   "assets/images/temporary/habitacion-doble.webp": {
@@ -57,6 +57,42 @@
     "mtime": 1794331582.7146213,
     "seen": 1794331858.4532201,
     "ast_hash": "f2290c4d1ff16677d77bb910eddc0b13",
+    "semantic_hash": ""
+  },
+  "assets/images/logo/apple-touch-icon.png": {
+    "mtime": 1794427668.422427,
+    "seen": 1794427971.8518434,
+    "ast_hash": "36b5843c4e611b950e4aec6361362a3a",
+    "semantic_hash": ""
+  },
+  "assets/images/logo/favicon-16x16.png": {
+    "mtime": 1794427668.3995433,
+    "seen": 1794427971.851847,
+    "ast_hash": "681955f718166840830cc5f481a470b0",
+    "semantic_hash": ""
+  },
+  "assets/images/logo/favicon-32x32.png": {
+    "mtime": 1794427668.398034,
+    "seen": 1794427971.85185,
+    "ast_hash": "7d9e0ed7e5514bdbead5eb1cb4a77638",
+    "semantic_hash": ""
+  },
+  "assets/images/logo/logo-hotel-roma.webp": {
+    "mtime": 1794419350.168806,
+    "seen": 1794427971.8518531,
+    "ast_hash": "32dfdef62150cdb133b9359da1fbb293",
+    "semantic_hash": ""
+  },
+  "assets/images/og/hotel-roma-share.jpg": {
+    "mtime": 1794427668.825253,
+    "seen": 1794427971.8518558,
+    "ast_hash": "a51e35ef1d33c1b7dcc62f4c9cd4cb1f",
+    "semantic_hash": ""
+  },
+  "assets/images/og/hotel-roma-share.png": {
+    "mtime": 1794427669.6209376,
+    "seen": 1794427971.8518586,
+    "ast_hash": "b3c19a5dafe34d833a9d232d511f4a2e",
     "semantic_hash": ""
   }
 }
