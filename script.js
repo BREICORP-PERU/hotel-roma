@@ -34,7 +34,7 @@ document.querySelectorAll('.brand-name').forEach(element => {
   const final_word = words.pop();
   const strong = document.createElement('strong');
   strong.textContent = final_word;
-  element.replaceChildren(document.createTextNode(words.join(' ')), strong);
+  element.replaceChildren(document.createTextNode(words.join(' ') + ' '), strong);
 });
 document.querySelector('.hero .eyebrow').firstChild.textContent = `${config.name} `;
 document.querySelectorAll('[data-map]').forEach(link => {

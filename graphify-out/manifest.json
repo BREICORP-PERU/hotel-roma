@@ -1,26 +1,26 @@
 {
   "config.js": {
-    "mtime": 1794427688.6215842,
-    "seen": 1794427971.8518186,
+    "mtime": 1794428081.4517467,
+    "seen": 1794429067.1750739,
     "ast_hash": "3299b90972eaca09a19e53ffbd01a381",
     "semantic_hash": ""
   },
   "script.js": {
-    "mtime": 1794427704.5207002,
-    "seen": 1794427971.8518298,
-    "ast_hash": "4f75e95b83c19f10263e4721f441ab8c",
+    "mtime": 1794428824.7372487,
+    "seen": 1794429067.175089,
+    "ast_hash": "0c5313c2e88c075a8588ba52e54e3fbc",
     "semantic_hash": ""
   },
   "assets/README.md": {
-    "mtime": 1794427955.411403,
-    "seen": 1794427971.8518355,
+    "mtime": 1794428081.3290448,
+    "seen": 1794429067.1750968,
     "ast_hash": "20687f29b7a4f3aa0d9749fa7905fa80",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1794427939.8131425,
-    "seen": 1794427971.8518393,
-    "ast_hash": "401f2512737bb83ed2aa186597626b07",
+    "mtime": 1794428891.3767827,
+    "seen": 1794429067.1751013,
+    "ast_hash": "8480d9e5aa9f4b32298cd6a284f726bd",
     "semantic_hash": ""
   },
   "assets/images/temporary/habitacion-doble.webp": {
