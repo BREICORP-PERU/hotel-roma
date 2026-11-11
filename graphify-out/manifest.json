@@ -6,8 +6,8 @@
     "semantic_hash": ""
   },
   "script.js": {
-    "mtime": 1794428824.7372487,
-    "seen": 1794429067.175089,
+    "mtime": 1794429274.0396054,
+    "seen": 1794430024.5647886,
     "ast_hash": "0c5313c2e88c075a8588ba52e54e3fbc",
     "semantic_hash": ""
   },
@@ -18,9 +18,9 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1794428891.3767827,
-    "seen": 1794429067.1751013,
-    "ast_hash": "8480d9e5aa9f4b32298cd6a284f726bd",
+    "mtime": 1794429960.9469893,
+    "seen": 1794430024.5647967,
+    "ast_hash": "051f4326ed72a3e17168b0a40627adf4",
     "semantic_hash": ""
   },
   "assets/images/temporary/habitacion-doble.webp": {
@@ -93,6 +93,12 @@
     "mtime": 1794427669.6209376,
     "seen": 1794427971.8518586,
     "ast_hash": "b3c19a5dafe34d833a9d232d511f4a2e",
+    "semantic_hash": ""
+  },
+  "robots.txt": {
+    "mtime": 1794429967.5669663,
+    "seen": 1794430024.5647995,
+    "ast_hash": "8b4dc0e75bbde009afdf38b279295747",
     "semantic_hash": ""
   }
 }
