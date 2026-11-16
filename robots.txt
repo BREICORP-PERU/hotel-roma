@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hotel-roma.vercel.app/sitemap.xml
+Sitemap: https://hotelroma.pe/sitemap.xml
 
