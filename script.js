@@ -13,14 +13,14 @@ function whatsapp_url(room, phone) {
 }
 
 document.querySelectorAll('[data-whatsapp]').forEach(link => {
-  const phone = link.dataset.whatsappPhone === 'secondary' ? config.phones[1] : config.phones[0];
+  const phone = config.phones[0];
   link.href = whatsapp_url(link.dataset.whatsapp, phone);
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
 });
 
 document.querySelectorAll('[data-phone]').forEach(link => {
-  const phone = link.dataset.phone === 'secondary' ? config.phones[1] : config.phones[0];
+  const phone = config.phones[0];
   link.textContent = phone.display;
   link.href = `tel:+${phone.international}`;
 });
